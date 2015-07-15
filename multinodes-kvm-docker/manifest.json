@@ -1,0 +1,4 @@
+{
+    "version": "0.1.0",
+    "description": "Devstack multi-nodes with an OpenStack controller a KVM compute node, a Docker compute node and a docker registry"
+}
