@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ctrl.openstack",
+    "flavor": "4_vCPU_RAM_8G_HD_50G",
+    "image": "ubuntu-14.04_x86_64",
+    "floating_ip_pool": "PublicNetwork-01",
+    "networks": [
+      {
+        "name": "net1",
+        "address": "192.168.20.10"
+      }
+    ],
+    "ssh": {
+      "user": "stack"
+    },
+    "shell": {
+      "path": "devstack-ctrl.sh"
+    }
+  }
+]
